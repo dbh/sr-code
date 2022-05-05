@@ -20,7 +20,7 @@ const DictionaryRow = ({ entry, onClick  }) => (
 
 DictionaryRow.propTypes = {
   entry: PropTypes.shape({
-    key: PropTypes.string,
+    key: PropTypes.number,
     word: PropTypes.string.isRequired,
     code: PropTypes.string.isRequired,
   }),

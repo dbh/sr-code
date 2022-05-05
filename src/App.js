@@ -4,7 +4,7 @@ import { CssBaseline } from '@material-ui/core';
 
 import './App.css';
 
-// import WordInfo from './components/WordInfo';
+import EntryInfo from './components/EntryInfo';
 import DictionaryFilter from './components/DictionaryFilter';
 import DictionaryTable from "./components/DictionaryTable";
 
@@ -53,7 +53,7 @@ function App() {
           <DictionaryTable />
 
         </div>
-        {/* <WordInfo />           */}
+        <EntryInfo />          
 
       </TwoColumnLayout>
       

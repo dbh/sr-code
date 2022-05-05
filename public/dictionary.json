@@ -2,16 +2,32 @@
     {
         "key": 1,
         "word": "hello",
-        "code": "whack"
+        "code": "whack",
+        "meaning": "greeting"
     },
     {
         "key": 2,
         "word": "goodbye",
-        "code": "zigga"
+        "code": "zigga",
+        "meaning": "something we say when we leave"
     },
     {
         "key": 3,
         "word": "swimming",
-        "code": "friggabiggadoo"
+        "code": "friggabiggadoo",
+        "meaning": "a water sport that people like"
+    },
+    {
+        "key": 4,
+        "word": "iloveunicorns",
+        "code": "badoongyface",
+        "meaning": ""
+    },
+    {
+        "key": 5,
+        "word": "airplane",
+        "code": "gfdjlkgkhkj",
+        "meaning": ""
     }
+
 ]

@@ -17,6 +17,10 @@ const EntryInfo = () => {
               <td>code:</td>
               <td>{selectedEntry.code}</td>
             </tr>
+            <tr>
+              <td>meaning:</td>
+              <td>{selectedEntry.meaning}</td>
+            </tr>            
           </tbody>
         </table>
         {/* <table>
@@ -40,6 +44,7 @@ const EntryInfo = () => {
       key: PropTypes.number,
       word: PropTypes.string.isRequired,
       code: PropTypes.string.isRequired,
+      meaning: PropTypes.string
     }),
   };
 

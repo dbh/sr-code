@@ -23,6 +23,7 @@ DictionaryRow.propTypes = {
     key: PropTypes.number,
     word: PropTypes.string.isRequired,
     code: PropTypes.string.isRequired,
+    meaning: PropTypes.string
   }),
   onSelect: PropTypes.func
 };

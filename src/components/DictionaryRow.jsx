@@ -1,19 +1,19 @@
 import React from 'react';
 import PropTypes from "prop-types";
-// import { Button } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 
 const DictionaryRow = ({ entry, onClick  }) => (
   <>
     <tr>
       <td>{entry.word}</td>
       <td>{entry.code}</td>
-      {/* <td>
+      <td>
         <Button 
           variant="contained" 
           color="primary" 
-          onClick={() => onClick (entry)}>More Info
+          onClick={() => onClick (entry)}>Info
         </Button>
-      </td> */}
+      </td>
     </tr>
   </>
 );
@@ -21,7 +21,7 @@ const DictionaryRow = ({ entry, onClick  }) => (
 DictionaryRow.propTypes = {
   entry: PropTypes.shape({
     key: PropTypes.string,
-    name: PropTypes.string.isRequired,
+    word: PropTypes.string.isRequired,
     code: PropTypes.string.isRequired,
   }),
   onSelect: PropTypes.func

@@ -5,7 +5,7 @@ import { CssBaseline } from '@material-ui/core';
 import './App.css';
 
 // import WordInfo from './components/WordInfo';
-// import DictionaryFilter from './components/DictionaryFilter';
+import DictionaryFilter from './components/DictionaryFilter';
 import DictionaryTable from "./components/DictionaryTable";
 
 import useStore from './store';
@@ -49,7 +49,7 @@ function App() {
 
         <div>
 
-          {/* <DictionaryFilter /> */}
+          <DictionaryFilter />
           <DictionaryTable />
 
         </div>

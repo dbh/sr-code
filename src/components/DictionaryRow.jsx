@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const DictionaryRow = ({ entry, onClick  }) => (
   <>
     <tr>
-      <td>{entry.name}</td>
+      <td>{entry.word}</td>
       <td>{entry.code}</td>
       {/* <td>
         <Button 

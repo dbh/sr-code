@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "name": "hello",
+        "word": "hello",
         "code": "whack"
     },
     {
         "id": 2,
-        "name": "goodbye",
+        "word": "goodbye",
         "code": "zigga"
     }
 ]

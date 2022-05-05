@@ -19,7 +19,7 @@ const DictionaryTable = () => {
                 </thead>
                 <tbody>
                     {dictionary
-                    .filter((dictionary) => dictionary.name.toLowerCase().includes(filter) || dictionary.code.toLowerCase().includes(filter))
+                    .filter((dictionary) => dictionary.word.toLowerCase().includes(filter) || dictionary.code.toLowerCase().includes(filter))
                     .map(entry => (
                         <DictionaryRow 
                             entry={entry}

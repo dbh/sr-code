@@ -1,17 +1,20 @@
 import PropTypes from "prop-types";
 import useStore from '../store';
 
+import Card from '@material-ui/core/Card';
+import { CardHeader } from "@material-ui/core";
+
 const EntryInfo = () => {
     const selectedEntry = useStore(state => state.selectedEntry);
 
     return selectedEntry ? ( 
-        <div>
-        <h1>{selectedEntry.word}</h1>
+      <Card>     
+        <CardHeader title="Entry Info"/>       
         <table>
           <tbody>
             <tr>
-              <td>key:</td>
-              <td>{selectedEntry.key}</td>
+              <td>Word:</td>
+              <td>{selectedEntry.word}</td>
             </tr>
             <tr>
               <td>code:</td>
@@ -23,19 +26,8 @@ const EntryInfo = () => {
             </tr>            
           </tbody>
         </table>
-        {/* <table>
-          <tbody>
-            {
-              Object.keys(selectedEntry.base).map(key => (
-                <tr key={key}>
-                  <td>{key}</td>
-                  <td>{selectedEntry.base[key]}</td>
-                </tr>
-              ))
-            }
-          </tbody>
-        </table> */}
-      </div>  
+
+      </Card>  
     ) : null;
 };
   

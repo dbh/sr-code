@@ -1,5 +1,6 @@
 import React from 'react';
 import DictionaryRow from './DictionaryRow';
+import Card from '@material-ui/core/Card';
 
 import useStore from '../store';
 
@@ -9,7 +10,7 @@ const DictionaryTable = () => {
     const setSelectedEntry = useStore(state => state.setSelectedEntry);
   
     return (
-        <div>
+        <Card>
             <table width="100%">
                 <thead>
                     <tr>
@@ -29,7 +30,7 @@ const DictionaryTable = () => {
                     ))}        
                 </tbody>
             </table>
-        </div>
+        </Card>
 
     );
 };

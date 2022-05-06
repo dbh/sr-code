@@ -4,6 +4,9 @@ const useStore = create(set => ({
   dictionary: [],
   filter: "",
   selectedEntry: null,
+  translateInput: "",
+  translateOutput: "",
+
   setDictionary: (dictionary) => set(state => ({
       ...state,
       dictionary
@@ -16,6 +19,17 @@ const useStore = create(set => ({
     ...state,
     selectedEntry
   })),
+
+  setTranslateInput: (translateInput) => set(state => ({
+    ...state,
+    translateInput
+  })), 
+
+  setTranslateOutput: (translateOutput) =>set(state => ({
+    ...state,
+    translateOutput
+  }))
+
 }));
 
 export default useStore;

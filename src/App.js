@@ -7,6 +7,7 @@ import './App.css';
 import EntryInfo from './components/EntryInfo';
 import DictionaryFilter from './components/DictionaryFilter';
 import DictionaryTable from "./components/DictionaryTable";
+import Translate from "./components/Translate"
 
 import useStore from './store';
 
@@ -48,7 +49,8 @@ function App() {
       <TwoColumnLayout>
 
         <div>
-
+          <Translate/>
+          <br/>
           <DictionaryFilter />
           <DictionaryTable />
 

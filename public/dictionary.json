@@ -19,9 +19,9 @@
     },
     {
         "key": 4,
-        "word": "iloveunicorns",
+        "word": "i",
         "code": "badoongyface",
-        "meaning": "a way to express liking of unicors"
+        "meaning": "A Common personal pronoun referring to oneself"
     },
     {
         "key": 5,
@@ -31,9 +31,103 @@
     },
     {
         "key": 6,
-        "word": "bubby and zaidy",
+        "word": "bubby",
         "code": "oopol", 
-        "meaning": "grandparents"
+        "meaning": "femail grandparent"
+    },    
+    {
+        "key": 7,
+        "word": "love",
+        "code": "mity",
+        "meaning": "An emotion of fondness"
+    },
+    {
+        "key": 8,
+        "word": "unicorn",
+        "code": "bronteen",
+        "meaning": "There is one on your head"
+    },    {
+        "key": 9,
+        "word": "unicorns",
+        "code": "wheablist",
+        "meaning": "Unicorns are real"
+    },
+    {
+        "key": 10,
+        "word": "zaidy",
+        "code": "jezt", 
+        "meaning": "male grandparent"
+    },
+    {
+        "key": 11,
+        "word": "dislike",
+        "code": "vaf", 
+        "meaning": "opposite of like"
+    },
+    {
+        "key": 12,
+        "word": "pizza",
+        "code": "obseum", 
+        "meaning": "Round, baked food with sauce and cheese"
+    },
+    {
+        "key": 13,
+        "word": "shabbos",
+        "code": "hioffpo",
+        "meaning": "Day of rest for Jewish people"
+    },
+    {
+        "key": 14,
+        "word": "zevy",
+        "code": "expowe",
+        "meaning": "Oldest boy in Harrison family"
+    },
+    {
+        "key": 15,
+        "word": "hillel",
+        "code": "memostorer",
+        "meaning": "Youngest boy in Harrison family"
+    },
+    {
+        "key": 16,
+        "word": "shaindel",
+        "code": "shingle",
+        "meaning": "Pretty"
+    },
+    {
+        "key": 17,
+        "word": "rivka",
+        "code": "rocks",
+        "meaning": "girl"
+    },
+    {
+        "key": 18,
+        "word": "abba",
+        "code": "dosnerp",
+        "meaning": "father in Harrison family"
+    },
+    {
+        "key": 19,
+        "word": "mommy",
+        "code": "ikaikaikakapowzaboinga",
+        "meaning": "momoweb"
+    },
+    {
+        "key": 20,
+        "word": "and",
+        "code": "grynn",
+        "meaning": "conjunction"
+    },
+    {
+        "key": 21,
+        "word": "or",
+        "code": "yan",
+        "meaning": "conjunction"
+    },
+    {
+        "key": 22,
+        "word": "hate",
+        "code": "woorsetignyl",
+        "meaning": "an expression of hatred"
     }
-
 ]

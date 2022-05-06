@@ -24,7 +24,7 @@ const DictionaryTable = () => {
                     .map(entry => (
                         <DictionaryRow 
                             entry={entry}
-                            key={entry.key}                          
+                            key={entry.word}                          
                             onClick={(entry) => setSelectedEntry(entry)}
                         />
                     ))}        

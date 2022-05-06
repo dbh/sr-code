@@ -27,7 +27,6 @@ const Translate = () => {
 
             if (typeof found_word !== 'undefined') {
                 result.push(found_word.code);
-                continue;
             }
             else if (typeof found_code !== 'undefined') {
                 result.push(found_code.word);

@@ -21,13 +21,19 @@
         "key": 4,
         "word": "iloveunicorns",
         "code": "badoongyface",
-        "meaning": ""
+        "meaning": "a way to express liking of unicors"
     },
     {
         "key": 5,
         "word": "airplane",
-        "code": "gfdjlkgkhkj",
-        "meaning": ""
+        "code": "oridju",
+        "meaning": "a aircraft that has wings and an engine"
+    },
+    {
+        "key": 6,
+        "word": "bubby and zeidy",
+        "code": "oopol", 
+        "meaning": "grandparents"
     }
 
 ]

@@ -2,7 +2,7 @@ import React from 'react';
 import DictionaryRow from './DictionaryRow';
 import Card from '@material-ui/core/Card';
 
-import useStore from '../store';
+import useStore from '../../store';
 
 const DictionaryTable = () => {
     const dictionary = useStore(state => state.dictionary);

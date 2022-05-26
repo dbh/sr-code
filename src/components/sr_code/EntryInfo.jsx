@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import useStore from '../store';
+import useStore from '../../store';
 
 import Card from '@material-ui/core/Card';
 import { CardHeader } from "@material-ui/core";

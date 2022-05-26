@@ -2,7 +2,7 @@ import React from 'react';
 // import styled from "@emotion/styled";
 import TextField from '@material-ui/core/TextField';
 import Card from '@material-ui/core/Card';
-import useStore from '../store';
+import useStore from '../../store';
 // import { CardHeader } from '@material-ui/core';
 
 // const Input = styled.input`

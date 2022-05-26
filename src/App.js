@@ -4,11 +4,9 @@ import { CssBaseline } from '@material-ui/core';
 
 import './App.css';
 
-import EntryInfo from './components/EntryInfo';
-// import DictionaryFilter from './components/DictionaryFilter';
-// import DictionaryTable from "./components/DictionaryTable";
-import Dictionary from './components/Dictionary';
-import Translate from "./components/Translate"
+import EntryInfo from './components/sr_code/EntryInfo';
+import Dictionary from './components/sr_code/Dictionary';
+import Translate from "./components/sr_code/Translate"
 
 import useStore from './store';
 

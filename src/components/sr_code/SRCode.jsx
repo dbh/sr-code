@@ -1,14 +1,13 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { CssBaseline } from '@material-ui/core';
+import '../../App.css';
 
-import './App.css';
+import EntryInfo from './EntryInfo';
+import Dictionary from './Dictionary';
+import Translate from "./Translate"
 
-import EntryInfo from './components/sr_code/EntryInfo';
-import Dictionary from './components/sr_code/Dictionary';
-import Translate from "./components/sr_code/Translate"
-
-import useStore from './store';
+import useStore from '../../store';
 
 const Title = styled.h1`
   text-align: center;`
@@ -25,7 +24,7 @@ const PageContainer = styled.div`
   paddingTop: lrem;
 `
 
-function App() {
+function SRCode() {
   const dictionary = useStore(state => state.dictionary);
   const setDictionary = useStore(state => state.setDictionary);
 
@@ -61,4 +60,4 @@ function App() {
   );
 }
 
-export default App;
+export default SRCode;

@@ -129,5 +129,17 @@
         "word": "hate",
         "code": "woorsetignyl",
         "meaning": "an expression of hatred"
+    },
+    {
+        "key": 23,
+        "word": "quiz",
+        "code": "gufyresuhyre",
+        "meaning": "youre about to take one"
+    },
+    {
+        "key": 24,
+        "word": "is",
+        "code": "blablablawhatever",
+        "meaning": "important word in english"
     }
 ]

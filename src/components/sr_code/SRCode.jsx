@@ -29,14 +29,14 @@ function SRCode() {
   const setDictionary = useStore(state => state.setDictionary);
 
   React.useEffect(() => {
-    fetch('http://localhost:3000/dictionary.json')
+    fetch('http://localhost:3000/data/dictionary.json')
       .then(resp => resp.json())
       .then(setDictionary)
   }, [setDictionary]);
   // with empty array, useEffect triggers only once at beginning
 
   if (!dictionary) {
-    return <div>Loading Data</div>;
+    return <div>Loading Dictionary</div>;
   }
 
   return (

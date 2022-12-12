@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import SRCode from './components/sr_code/SRCode';
-import About from './components/About';
+import Quiz from './components/Quiz';
 import NoPage from './components/NoPage';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -21,7 +21,7 @@ root.render(
       <Route path="/" element={<Layout />} >
         <Route path="/" element={<Home />} />
         <Route path="/sr_code" element={<SRCode />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/quiz" element={<Quiz />} />
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>

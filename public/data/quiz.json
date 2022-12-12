@@ -1,0 +1,40 @@
+[
+    
+    {   
+        "key": "Are you sure there is nothing wrong with you?",
+        "answers": [
+            "no","yes","maybe"
+        ]
+    },
+    {   
+        "key": "What is your favorite color?",
+        "answers": [
+            "green","red","blue","purple","yellow","black","white","brown"
+        ]
+    },
+
+    {
+        "key": "How many floors does your house have?",
+        "answers": [
+            "1","2","3","4","a zillion"
+        ]
+    },
+    {
+        "key": "What does your bed look like?",
+        "answers": [
+           "i dont have a bed","fancy","normal"             
+        ]
+    },
+    {
+        "key": "What do you want your job to be?",
+        "answers": [
+            "scientist", "pilot", "falafel chef","other"
+        ]
+    }, 
+    {
+        "key": "Are you a weirdo?",
+        "answers": [
+            "no", "yes", "excuse me?", "Why should I tell you?", "definitely!"            
+        ]
+    }
+]

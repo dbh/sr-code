@@ -7,6 +7,8 @@ const useStore = create(set => ({
   translateInput: "",
   translateOutput: "",
 
+  quiz: [],
+
   setDictionary: (dictionary) => set(state => ({
       ...state,
       dictionary
@@ -28,7 +30,13 @@ const useStore = create(set => ({
   setTranslateOutput: (translateOutput) =>set(state => ({
     ...state,
     translateOutput
-  }))
+  })),
+
+
+  setQuiz: (quiz) => set(state => ({
+    ...state,
+    quiz
+})),
 
 }));
 
